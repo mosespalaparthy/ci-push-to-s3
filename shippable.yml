@@ -16,7 +16,7 @@ env:
     - TESTS_LOC_DIR=$SHIPPABLE_REPO_DIR/tests
     - MOD_LOC=$SHIPPABLE_REPO_DIR/node_modules/.bin/
     - AWS_S3_BUCKET='s3://ci-push-amazon-ecr'
-    - AWS_S3_REGION='us-east-1'
+    - AWS_S3_REGION='ap-south-1'
     - secure: iX6zCEQTr+7Q1rHtFu/qcKrn7feRNfqC6RDx5/VRxkRbxOpmLpmtGSX9aOaBU/TqwqikDO+LSYDHSZFX6oG4ShAR93AZkYkI8BSa9wedBll4lIFF9HPpWVSbS/50XjQs7P5doZp4jUHcWEJR8p6howmuj4LqakX/RlWH8ettE0wIxIiqH9OEnx2nr2dDL2ywWQWBI23NjwnUG5Nh9RFwm3sSeRz7KHRTkNbAsCiJUB0KmhBpkCScAH/N4X8CBb640dvbmt/ZY7TGH+Hf6fOKYK4V5YBsYYTJGqYV9Hl6skfymyCOUUB6hCOyaSpzS2sp+/Z+VqjxqGRytgxAegGxTA==
 
 build:
